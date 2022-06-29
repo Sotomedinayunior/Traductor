@@ -44,13 +44,13 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">@lang('msg.login')</a>
+                                    <a class="nav-link" href="#">@lang('msg.login')</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">@lang('msg.register')</a>
+                                    <a class="nav-link" href="{{url('/en/registro')}}">@lang('msg.register')</a>
                                 </li>
                             @endif
                         @else

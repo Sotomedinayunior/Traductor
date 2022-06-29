@@ -25,7 +25,11 @@ Route::get('/{lang}/vista', function ($lang) {
     return view('vista');
 });
 
+Route::get('/{lang}/registro', function ($lang) {
+    App::setLocale($lang);
 
+    return view('registro');
+});
 //Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

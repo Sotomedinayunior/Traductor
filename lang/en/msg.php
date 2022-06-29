@@ -2,13 +2,15 @@
 
 return[
     "login"=> 'login',
-    "register"=>"register",
+    "register"=>"Register",
     "Email"=>"Email Address",
-    "password"=>"password",
+    "password"=>"Password",
     "Remember"=>"Remember me",
     "Forgot"=>"Forgot Your Password",
     "Languages"=>"Languages",
-    "Spanish"=>"Español"
+    "Spanish"=>"Español",
+    "name" =>"name",
+    "confirm" =>"Confirm Password"
 ]
 
 

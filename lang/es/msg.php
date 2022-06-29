@@ -7,6 +7,8 @@ return[
     "password"=>"contraseña",
     "Remember"=>"Recordarme",
     "Forgot"=>"olvidaste la contraseña",
+    "name" =>"nombre",
+    "confirm"=>"confirma la contraseña "
 
 ]
 

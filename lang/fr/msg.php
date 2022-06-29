@@ -6,7 +6,9 @@ return [
     "Email"=>"Adresse e-mail",
     "password"=>"le mot de passe",
     "Remember"=>"souviens-toi de moi",
-    "Forgot"=>"Mot de passe oublié"
+    "Forgot"=>"Mot de passe oublié",
+    "name" =>"Nom",
+    "confirm" =>"Confirmez le mot de passe"
 ]
 
 
