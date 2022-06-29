@@ -12,14 +12,23 @@ use Illuminate\Support\Facades\Route;
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
-|
-*/
+// |
+// */
+// Route::get('/conctactos', function () {
+//     //App::setLocale($lang);
 
-Route::get('/{lang}', function ($lang) {
+//     return view('conctactos');
+// });
+Route::get('/{lang}/vista', function ($lang) {
     App::setLocale($lang);
 
-    return view('welcome');
+    return view('vista');
 });
+
+
+//Auth::routes();
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
 
